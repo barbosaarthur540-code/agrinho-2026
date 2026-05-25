@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Sustentabilidade no Campo</title>
+    <!-- Link para o arquivo de estilo externo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones Lucide -->
+    <script src="https://unpkg.com"></script>
+</head>
+<body>
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="nav-logo">
+                <i data-lucide="sprout"></i> Agrinho 2026
+            </span>
+            <div class="nav-links">
+                <a href="index.html" class="active">Início</a>
+                <a href="contato.html">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho Principal -->
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">Sustentabilidade e Inovação</span>
+            <h1>O Futuro do Campo na Nossa Escola</h1>
+            <p>Descubra como a tecnologia e as práticas sustentáveis transformam a agricultura e protegem o nosso planeta todos os dias.</p>
+            <a href="#pilares" class="btn">Explorar Projeto <i data-lucide="arrow-down"></i></a>
+        </div>
+    </header>
+
+    <!-- Seção de Conteúdo (Pilares) -->
+    <main id="pilares" class="container">
+        <h2 class="section-title">Os Pilares da Agricultura do Amanhã</h2>
+        
+        <div class="grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-icon icon-water">
+                    <i data-lucide="droplet"></i>
+                </div>
+                <h3>Uso da Água</h3>
+                <p>Sistemas de irrigação gota a gota reduzem o desperdício de água em até 60%, aplicando o recurso direto na raiz.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-icon icon-tech">
+                    <i data-lucide="cpu"></i>
+                </div>
+                <h3>Tecnologia (Agrotech)</h3>
+                <p>Drones e sensores ajudam a monitorar a saúde das plantações em tempo real, evitando o uso excessivo de defensivos.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-icon icon-soil">
+                    <i data-lucide="leaf"></i>
+                </div>
+                <h3>Solo Vivo</h3>
+                <p>A rotação de culturas e a cobertura vegetal mantêm os nutrientes da terra ativos, prevenindo a erosão natural.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Seção do Quiz Interativo -->
+    <section class="quiz-section">
+        <div class="quiz-container">
+            <span class="quiz-badge">Desafio Interativo</span>
+            <h2>Teste seu Conhecimento!</h2>
+            
+            <div id="quiz-box">
+                <p class="question">Qual tecnologia é usada para mapear lavouras e identificar falhas de plantio lá do alto?</p>
+                <div class="options-stack">
+                    <button class="quiz-option" data-correct="false">A) Tratores com GPS manual</button>
+                    <button class="quiz-option" data-correct="true">B) Drones agrícolas com câmeras especiais</button>
+                    <button class="quiz-option" data-correct="false">C) Enxadas inteligentes conectadas ao Wi-Fi</button>
+                </div>
+                <div id="quiz-result" class="quiz-result"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 - Desenvolvido para o Concurso Agrinho. Orgulho em cultivar o futuro.</p>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
