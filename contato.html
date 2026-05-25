@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Agrinho 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com"></script>
+</head>
+<body>
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="nav-logo">
+                <i data-lucide="sprout"></i> Agrinho 2026
+            </span>
+            <div class="nav-links">
+                <a href="index.html">Início</a>
+                <a href="contato.html" class="active">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo da Página de Contato -->
+    <main class="container contact-page">
+        <div class="contact-card">
+            <h2>Fale Conosco</h2>
+            <p class="subtitle">Deixe sua mensagem para a nossa equipe do projeto Agrinho.</p>
+
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome completo</label>
+                    <input type="text" id="name" required placeholder="Digite seu nome">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required placeholder="seu.email@escola.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensagem ou Sugestão</label>
+                    <textarea id="message" rows="5" required placeholder="Como nosso projeto pode melhorar o campo?"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-full">Enviar Mensagem</button>
+            </form>
+            <div id="form-success" class="form-success-msg"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido para o Concurso Agrinho. Orgulho em cultivar o futuro.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
